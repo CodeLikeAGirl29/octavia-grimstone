@@ -1,0 +1,31 @@
+{
+  "name": "mone",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write ./**/*.{js,jsx,ts,tsx,css,md,json,scss} --config ./.prettierrc.json"
+  },
+  "dependencies": {
+    "@react-google-maps/api": "2.19.2",
+    "bootstrap": "5.3.2",
+    "bootstrap-icons": "1.11.1",
+    "next": "14.0.0",
+    "nodemailer": "6.9.7",
+    "react": "18",
+    "react-dom": "18",
+    "swiper": "11.0.3"
+  },
+  "devDependencies": {
+    "eslint": "8",
+    "eslint-config-next": "14.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.6.9",
+    "sass": "1.69.5"
+  }
+}
